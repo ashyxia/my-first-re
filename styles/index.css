@@ -1,5 +1,29 @@
-div{
-    color: blueviolet;
-    padding: 15px;
-    background-color: blanchedalmond;
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+*{
+    margin: 0;
+   
 }
+.hero{
+    background-image: url('../images/ball.jpg');
+    background-size: cover;
+    background-position: top center;
+    height:120vh;
+} 
+.hero h1{
+    
+    text-align: right;
+    font-size: 75px;
+    font-weight: 800;
+    position: relative;
+    padding:80px;
+    top: 30%;
+    font-family: 'Bungee Spice', sans-serif;
+}
+.wh{
+    color: rgb(230, 225, 225);
+    font-size: 200px;
+    font-family: 'Long Cang', cursive;
+}
+ 
+ 
